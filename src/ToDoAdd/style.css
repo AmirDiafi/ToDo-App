@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    background: rgb(6, 76, 146);;
+}
+
+input{
+    padding: 10px;
+    margin: 3px;
+    font-size: 18px;
+}
+
+input:first-child{
+    width: 65%;
+}
+input:nth-child(2){
+    width: 32%;
+}
+input:last-child{
+    width: 13%;
+    background: rgb(2, 34, 66);
+    border: none;
+    color :#FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+input:last-child:hover{
+    background: rgb(6, 76, 146)
+}

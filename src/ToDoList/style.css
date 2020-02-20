@@ -1,0 +1,63 @@
+.todoitems{
+    background: rgb(6, 76, 146);
+    margin-bottom: 0
+}
+
+.header{
+    text-align: start;
+    display: flex;
+}
+
+.header span{
+    padding: 10px;
+    background: rgb(6, 76, 146);
+    font-size: 20px;
+    font-weight: bold;
+}
+.header span.name{
+    width: 60%;
+}
+.header span.age{
+    width: 30%;
+}
+.header span.act{
+    width: 10%;
+}
+
+.content{
+    text-align: start;
+    display: flex;
+    color :#333;
+}
+.content span {
+    padding: 10px;
+    margin: 2px;
+    background :#eee;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content span:first-child{
+    width: 60%;
+}
+.content span:nth-child(2){
+    width: 30%;
+}
+.content span:last-child{
+    width: 10%;
+    text-align: center;
+    color :rgb(245, 241, 241);
+    cursor: pointer;
+    background: rgb(148, 4, 4);
+    transition: all .3s linear;
+}
+.content span:last-child:hover{
+    background: red;
+}
+p{
+    padding: 10px;
+    background: #FFF;
+    color :#333;
+    font-size: 20px;
+    margin-bottom: 0;
+}
